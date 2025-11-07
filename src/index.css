@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 🌎 Global font */
+* {
+  font-family: 'Italiana', serif;
+}
+
+/* Optional extra font classes */
+.font-italianna {
+  font-family: 'Italiana', serif !important;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel Decorative', cursive !important;
+}
+
+.font-poppins {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ✅ Tailwind v4 custom theme fonts */
+@theme {
+  --font-lato: "Lato", sans-serif;
+  --font-italianna: "Italiana", cursive;
+  --font-cinzel: "Cinzel Decorative", serif;
+  --font-poppins: "Open Sans", sans-serif;
+}
