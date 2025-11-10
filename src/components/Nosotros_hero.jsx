@@ -1,7 +1,4 @@
 import React from 'react'
-import adn from '../assets/adn.mp4'
-import armonizacion from '../assets/armon.MP4'
-import estrias from '../assets/ESTRIAS.mp4'
 
 const Nosotros_hero = () => {
   return (
@@ -50,7 +47,7 @@ const Nosotros_hero = () => {
         <section className="flex flex-col md:flex-row items-center justify-center gap-10 max-md:px-4 pt-10 pb-15">
             <div className="relative shadow-2xl shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0">
                 <video className="max-w-xs w-full object-cover rounded-2xl"
-                    src={adn} autoPlay loop muted/>
+                    src="https://res.cloudinary.com/dwy4sowpy/video/upload/v1762545840/ARMONIZACION_FACIAL_1_ckergu.mp4" autoPlay loop muted/>
             </div>
             <div className="text-sm text-slate-600 max-w-lg">
                 <h1 className="text-xl uppercase font-semibold text-slate-700">Nosotros</h1>
@@ -74,7 +71,7 @@ const Nosotros_hero = () => {
             </div>
             <div className="relative shadow-2xl shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0">
                 <video className="max-w-xs w-full object-cover rounded-2xl"
-                    src={armonizacion} autoPlay loop muted/>
+                    src="https://res.cloudinary.com/dwy4sowpy/video/upload/v1762800499/REJUVENECIMIENTO_FACIAL_w9b4o9.mp4" autoPlay loop muted/>
             </div>
         </section>
 
@@ -83,7 +80,7 @@ const Nosotros_hero = () => {
         <section className="flex flex-col md:flex-row items-center justify-center gap-10 max-md:px-4 pt-15 pb-20">
             <div className="relative shadow-2xl shadow-indigo-600/40 rounded-2xl overflow-hidden shrink-0">
                 <video className="max-w-xs w-full object-cover rounded-2xl"
-                    src={estrias} autoPlay loop muted/>
+                    src="https://res.cloudinary.com/dwy4sowpy/video/upload/v1762800502/NATURAL_PEEL_1_jx4apf.mp4" autoPlay loop muted/>
             </div>
             <div className="text-sm text-slate-600 max-w-lg">
                 <h1 className="text-xl uppercase font-semibold text-slate-700">Visión</h1>
