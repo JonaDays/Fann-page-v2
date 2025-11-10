@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../assets/Fann2.png'
 
 const Navbar = () => {
     const navLinks_1 = [
@@ -41,7 +40,7 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <Link to='/'>
-                    <img src={logo} alt="logo" className={`h-40 ${isScrolled && "invert opacity-80"}`} />
+                    <img src="https://res.cloudinary.com/dwy4sowpy/image/upload/v1762801245/Fann2_vey6m2.png" alt="logo" className={`h-40 ${isScrolled && "invert opacity-80"}`} />
                 </Link>
 
                 {/* Desktop Nav Right */}
